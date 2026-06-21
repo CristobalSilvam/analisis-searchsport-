@@ -1,0 +1,301 @@
+id_cancha,nombre_recinto,deporte,comuna,precio_por_hora
+1,Complejo Deportivo Carlos 4,Futbolito,Ñuñoa,41509
+2,Complejo Deportivo Gabriel 2,Futsal,Macul,14565
+3,Complejo Deportivo Paulina 1,Futsal,San Joaquín,19726
+4,Complejo Deportivo Genoveva 1,Pádel,Las Condes,32065
+5,Complejo Deportivo Violeta 2,Pádel,La Cisterna,37786
+6,Complejo Deportivo Marcia 3,Futbolito,Pudahuel,40648
+7,Complejo Deportivo Samuel 4,Pádel,La Reina,22056
+8,Complejo Deportivo Claudia 3,Futbolito,Cerro Navia,36827
+9,Complejo Deportivo Samantha 4,Futbolito,Renca,34295
+10,Complejo Deportivo Javier 4,Futbolito,Macul,28436
+11,Complejo Deportivo Carla 1,Futbolito,Lo Prado,32890
+12,Complejo Deportivo Juan 1,Futbolito,Pudahuel,30024
+13,Complejo Deportivo Carmen 5,Futsal,Providencia,12437
+14,Complejo Deportivo Ivonne 5,Pádel,Renca,22082
+15,Complejo Deportivo Luis 5,Futbolito,Las Condes,39006
+16,Complejo Deportivo Juan 1,Futsal,San Ramón,19000
+17,Complejo Deportivo Juana 1,Tenis,Renca,26961
+18,Complejo Deportivo Daniel 4,Futbolito,Estación Central,41763
+19,Complejo Deportivo Gabriel 4,Futbolito,San Miguel,34442
+20,Complejo Deportivo David 5,Futbolito,Conchalí,39436
+21,Complejo Deportivo Manuel 5,Pádel,Santiago,34008
+22,Complejo Deportivo José 2,Tenis,Huechuraba,15767
+23,Complejo Deportivo Fernanda 3,Futbolito,Las Condes,30873
+24,Complejo Deportivo Miguel 4,Pádel,La Florida,42753
+25,Complejo Deportivo Marco 3,Futsal,La Pintana,15216
+26,Complejo Deportivo Hugo 2,Futbolito,Recoleta,30422
+27,Complejo Deportivo Gaspar 1,Futbolito,Providencia,38716
+28,Complejo Deportivo Oscar 2,Pádel,Providencia,28036
+29,Complejo Deportivo Martina 4,Tenis,Quinta Normal,24660
+30,Complejo Deportivo Camilo 3,Pádel,Lo Espejo,25758
+31,Complejo Deportivo Santino 1,Futsal,Lo Barnechea,16175
+32,Complejo Deportivo Christian 5,Futbolito,El Bosque,38132
+33,Complejo Deportivo José 2,Básquetbol,La Granja,16710
+34,Complejo Deportivo Miguel 3,Futbolito,San Joaquín,32684
+35,Complejo Deportivo Iker 4,Futsal,Lo Espejo,18427
+36,Complejo Deportivo Maricel 1,Futbolito,Lo Barnechea,35327
+37,Complejo Deportivo Miguel 2,Básquetbol,Cerrillos,14247
+38,Complejo Deportivo Víctor 1,Futbolito,El Bosque,41604
+39,Complejo Deportivo José 4,Futsal,Quilicura,13789
+40,Complejo Deportivo Luis 3,Futbolito,Cerro Navia,34992
+41,Complejo Deportivo María 1,Futsal,Recoleta,16280
+42,Complejo Deportivo Lucinda 2,Futbolito,La Cisterna,37191
+43,Complejo Deportivo Uberlinda 4,Pádel,Pudahuel,26899
+44,Complejo Deportivo Sandra 2,Futsal,La Cisterna,16793
+45,Complejo Deportivo José 5,Futsal,San Joaquín,15569
+46,Complejo Deportivo Ulises 2,Básquetbol,La Granja,17530
+47,Complejo Deportivo Sonia 1,Futbolito,San Miguel,29322
+48,Complejo Deportivo Pascual 4,Futsal,Vitacura,18609
+49,Complejo Deportivo Miguel 1,Básquetbol,Independencia,13047
+50,Complejo Deportivo Tania 4,Futbolito,Lo Barnechea,40565
+51,Complejo Deportivo Christopher 3,Futbolito,Cerro Navia,41673
+52,Complejo Deportivo Eliana 1,Futbolito,Vitacura,32104
+53,Complejo Deportivo René 3,Futbolito,Cerro Navia,37592
+54,Complejo Deportivo Tamara 3,Futbolito,Quinta Normal,32876
+55,Complejo Deportivo Paula 1,Pádel,Estación Central,29422
+56,Complejo Deportivo Maura 2,Pádel,Vitacura,31994
+57,Complejo Deportivo Juan 5,Futsal,San Ramón,17330
+58,Complejo Deportivo Cecilia 1,Básquetbol,Estación Central,13686
+59,Complejo Deportivo Pablo 2,Futbolito,Renca,34394
+60,Complejo Deportivo David 1,Pádel,San Joaquín,23654
+61,Complejo Deportivo Eric 3,Futbolito,Cerrillos,39819
+62,Complejo Deportivo Juan 3,Pádel,Pedro Aguirre Cerda,37162
+63,Complejo Deportivo Antonia 4,Futsal,Pudahuel,19775
+64,Complejo Deportivo Mónica 3,Futsal,Lo Barnechea,19477
+65,Complejo Deportivo Patricio 2,Futbolito,La Reina,33684
+66,Complejo Deportivo Lorena 4,Futbolito,Ñuñoa,33846
+67,Complejo Deportivo Alfredo 3,Futbolito,Santiago,35657
+68,Complejo Deportivo Ximena 5,Futsal,Huechuraba,16054
+69,Complejo Deportivo Paulina 2,Pádel,Santiago,31245
+70,Complejo Deportivo Elizabeth 1,Futbolito,La Granja,37272
+71,Complejo Deportivo Deyanira 4,Tenis,Conchalí,26550
+72,Complejo Deportivo Wilson 1,Futsal,Lo Barnechea,20034
+73,Complejo Deportivo Ruth 4,Futbolito,La Reina,40045
+74,Complejo Deportivo Juan 2,Pádel,Huechuraba,29502
+75,Complejo Deportivo Claudio 5,Futbolito,La Cisterna,29291
+76,Complejo Deportivo Evelyn 4,Futbolito,El Bosque,35121
+77,Complejo Deportivo Camila 2,Futsal,La Pintana,15808
+78,Complejo Deportivo Alejandro 2,Futbolito,Macul,39719
+79,Complejo Deportivo Javier 4,Pádel,San Miguel,44179
+80,Complejo Deportivo Rosa 1,Tenis,Quinta Normal,16387
+81,Complejo Deportivo Ivonne 5,Pádel,La Florida,31269
+82,Complejo Deportivo Ámbar 2,Futbolito,Las Condes,32549
+83,Complejo Deportivo Felipe 5,Futsal,La Pintana,12637
+84,Complejo Deportivo Claudia 1,Futbolito,Estación Central,37203
+85,Complejo Deportivo Sebastián 1,Futbolito,Lo Prado,36352
+86,Complejo Deportivo Lidia 4,Pádel,El Bosque,39499
+87,Complejo Deportivo Catalina 5,Futsal,Quilicura,20556
+88,Complejo Deportivo Elsa 3,Básquetbol,Pudahuel,19033
+89,Complejo Deportivo Danitza 1,Pádel,Ñuñoa,35707
+90,Complejo Deportivo Juan 5,Futsal,Maipú,14566
+91,Complejo Deportivo Evelyn 2,Futsal,Vitacura,17988
+92,Complejo Deportivo Alfredo 2,Futbolito,La Florida,40265
+93,Complejo Deportivo Sonia 5,Futsal,La Cisterna,18256
+94,Complejo Deportivo Alexis 5,Futbolito,Santiago,39768
+95,Complejo Deportivo Benjamín 5,Pádel,Maipú,26507
+96,Complejo Deportivo Rosa 4,Futbolito,La Pintana,38311
+97,Complejo Deportivo Anthony 4,Tenis,La Cisterna,23924
+98,Complejo Deportivo Manuel 3,Pádel,La Pintana,35771
+99,Complejo Deportivo Paolo 3,Futbolito,Cerro Navia,29025
+100,Complejo Deportivo Jeannette 2,Pádel,Recoleta,24639
+101,Complejo Deportivo Claudio 4,Futbolito,Independencia,33552
+102,Complejo Deportivo David 2,Futbolito,Maipú,28648
+103,Complejo Deportivo Benjamín 5,Futsal,Vitacura,21255
+104,Complejo Deportivo Cristian 5,Futsal,Ñuñoa,19919
+105,Complejo Deportivo Erick 4,Futbolito,Pudahuel,35802
+106,Complejo Deportivo Juan 3,Futsal,Cerro Navia,17522
+107,Complejo Deportivo Patricia 3,Futbolito,Renca,37918
+108,Complejo Deportivo Linda 4,Tenis,La Cisterna,17737
+109,Complejo Deportivo Fernanda 2,Futsal,La Florida,21698
+110,Complejo Deportivo Iván 4,Básquetbol,Santiago,17722
+111,Complejo Deportivo Ángel 1,Futbolito,Macul,34132
+112,Complejo Deportivo Trinidad 4,Futsal,La Pintana,12102
+113,Complejo Deportivo Ronald 4,Futbolito,Vitacura,30710
+114,Complejo Deportivo Nelly 4,Pádel,Cerrillos,44523
+115,Complejo Deportivo Benjamín 1,Futbolito,Providencia,30714
+116,Complejo Deportivo Sergio 5,Futbolito,La Pintana,38643
+117,Complejo Deportivo Abner 3,Pádel,San Ramón,37517
+118,Complejo Deportivo Misael 5,Pádel,Quilicura,28453
+119,Complejo Deportivo Paola 3,Futsal,Vitacura,16626
+120,Complejo Deportivo Francisca 4,Futbolito,Quilicura,41796
+121,Complejo Deportivo Isidora 2,Futbolito,Santiago,33238
+122,Complejo Deportivo Edgardo 2,Futbolito,Independencia,32478
+123,Complejo Deportivo Cristian 2,Futsal,Cerrillos,16621
+124,Complejo Deportivo María 2,Futsal,Lo Prado,15451
+125,Complejo Deportivo Ana 4,Futbolito,Lo Espejo,32867
+126,Complejo Deportivo Patricia 3,Futsal,Lo Prado,12261
+127,Complejo Deportivo Martin 5,Futsal,Cerrillos,19700
+128,Complejo Deportivo Carlos 4,Futbolito,Pedro Aguirre Cerda,41188
+129,Complejo Deportivo Rosa 5,Pádel,Cerro Navia,34520
+130,Complejo Deportivo Edith 2,Tenis,La Cisterna,25143
+131,Complejo Deportivo Ámbar 2,Futbolito,Huechuraba,38414
+132,Complejo Deportivo Eloy 4,Futsal,Ñuñoa,15162
+133,Complejo Deportivo Pascal 4,Básquetbol,Maipú,12251
+134,Complejo Deportivo Manuela 4,Básquetbol,San Miguel,20152
+135,Complejo Deportivo Johanna 2,Futbolito,Recoleta,31315
+136,Complejo Deportivo Aliro 2,Futsal,Vitacura,14581
+137,Complejo Deportivo Martín 3,Futsal,La Pintana,20647
+138,Complejo Deportivo Olivia 4,Futbolito,Santiago,34148
+139,Complejo Deportivo María 2,Futbolito,Independencia,34801
+140,Complejo Deportivo Sofía 1,Pádel,Las Condes,27871
+141,Complejo Deportivo Andy 3,Futbolito,Providencia,36087
+142,Complejo Deportivo Alejandro 5,Pádel,Conchalí,33566
+143,Complejo Deportivo Ignacio 3,Pádel,Maipú,38626
+144,Complejo Deportivo Evelyn 3,Pádel,Quilicura,43120
+145,Complejo Deportivo Isidora 3,Futsal,Recoleta,13902
+146,Complejo Deportivo María 4,Básquetbol,Cerro Navia,19580
+147,Complejo Deportivo Isaías 5,Pádel,Cerrillos,36699
+148,Complejo Deportivo Víctor 3,Futbolito,Lo Barnechea,40240
+149,Complejo Deportivo Pascal 1,Futsal,La Pintana,17114
+150,Complejo Deportivo Hugo 4,Futsal,Lo Prado,13173
+151,Complejo Deportivo Julio 3,Futbolito,Lo Espejo,33920
+152,Complejo Deportivo Yesica 3,Pádel,Quilicura,25944
+153,Complejo Deportivo Fernanda 3,Pádel,Pudahuel,40228
+154,Complejo Deportivo Jesús 1,Futsal,Providencia,13272
+155,Complejo Deportivo Víctor 3,Pádel,Quilicura,34731
+156,Complejo Deportivo Ian 2,Futbolito,Conchalí,41186
+157,Complejo Deportivo Valentina 3,Tenis,Estación Central,24239
+158,Complejo Deportivo Catherine 1,Pádel,Las Condes,22880
+159,Complejo Deportivo Javier 4,Pádel,La Pintana,23430
+160,Complejo Deportivo Eugenia 4,Futbolito,Recoleta,30698
+161,Complejo Deportivo Claudina 2,Futsal,Santiago,16056
+162,Complejo Deportivo Francisco 4,Futbolito,La Florida,39813
+163,Complejo Deportivo Sandra 1,Futbolito,Recoleta,37760
+164,Complejo Deportivo Juanita 1,Básquetbol,La Granja,16380
+165,Complejo Deportivo Oscar 5,Futsal,San Miguel,20662
+166,Complejo Deportivo Juan 4,Futsal,La Reina,21189
+167,Complejo Deportivo Sofía 2,Futbolito,Quilicura,39127
+168,Complejo Deportivo Alejandro 4,Tenis,Peñalolén,21088
+169,Complejo Deportivo Vicente 4,Futbolito,Recoleta,28672
+170,Complejo Deportivo Jonathan 4,Futbolito,Renca,37365
+171,Complejo Deportivo Trinidad 4,Futsal,Pedro Aguirre Cerda,13843
+172,Complejo Deportivo Luis 5,Futsal,Independencia,14416
+173,Complejo Deportivo María 4,Futsal,La Pintana,12517
+174,Complejo Deportivo Víctor 1,Pádel,Recoleta,42387
+175,Complejo Deportivo Celinda 2,Futsal,Pudahuel,14097
+176,Complejo Deportivo Víctor 5,Futbolito,La Florida,41563
+177,Complejo Deportivo Beatriz 3,Pádel,La Pintana,34919
+178,Complejo Deportivo Belén 4,Pádel,Vitacura,28878
+179,Complejo Deportivo Fernanda 2,Tenis,El Bosque,27790
+180,Complejo Deportivo Emanuel 1,Futbolito,La Cisterna,31976
+181,Complejo Deportivo Denisse 5,Futbolito,Macul,29558
+182,Complejo Deportivo Amalia 3,Futbolito,Lo Prado,35087
+183,Complejo Deportivo Marcelina 2,Futbolito,La Reina,28680
+184,Complejo Deportivo Marcelo 4,Pádel,Vitacura,39986
+185,Complejo Deportivo María 3,Futbolito,Lo Prado,32481
+186,Complejo Deportivo Rayén 4,Futbolito,La Pintana,36114
+187,Complejo Deportivo José 3,Futbolito,San Ramón,40180
+188,Complejo Deportivo Jorge 5,Pádel,Lo Barnechea,34987
+189,Complejo Deportivo Héctor 5,Futbolito,Santiago,37727
+190,Complejo Deportivo Claudio 2,Futbolito,Cerro Navia,35836
+191,Complejo Deportivo César 3,Futbolito,Lo Barnechea,32931
+192,Complejo Deportivo María 1,Futsal,Macul,15818
+193,Complejo Deportivo Cristian 3,Futbolito,Independencia,28281
+194,Complejo Deportivo Ruth 2,Futsal,Renca,19047
+195,Complejo Deportivo Víctor 4,Pádel,Quilicura,29038
+196,Complejo Deportivo Carmen 2,Futbolito,Pudahuel,31574
+197,Complejo Deportivo Alfredo 4,Pádel,Las Condes,41695
+198,Complejo Deportivo Bárbara 1,Futbolito,Recoleta,37723
+199,Complejo Deportivo Nora 2,Futsal,Lo Espejo,13393
+200,Complejo Deportivo Ernestina 3,Futbolito,Recoleta,39575
+201,Complejo Deportivo José 2,Futbolito,El Bosque,31473
+202,Complejo Deportivo Ana 2,Pádel,Cerro Navia,30489
+203,Complejo Deportivo Melania 3,Futbolito,La Florida,35457
+204,Complejo Deportivo Fernando 5,Futbolito,Conchalí,32189
+205,Complejo Deportivo Teresa 3,Futbolito,La Florida,34928
+206,Complejo Deportivo María 2,Pádel,Pedro Aguirre Cerda,25669
+207,Complejo Deportivo Samantha 1,Pádel,Lo Barnechea,35860
+208,Complejo Deportivo Paulina 1,Pádel,Cerrillos,31537
+209,Complejo Deportivo Victoria 5,Tenis,La Reina,26940
+210,Complejo Deportivo Vanessa 4,Futsal,Pudahuel,12804
+211,Complejo Deportivo Omar 2,Pádel,La Granja,32957
+212,Complejo Deportivo José 3,Futbolito,La Reina,34569
+213,Complejo Deportivo Leslie 3,Futbolito,Renca,30894
+214,Complejo Deportivo Jennifer 2,Futsal,San Joaquín,16011
+215,Complejo Deportivo Magdalena 5,Futbolito,Renca,31557
+216,Complejo Deportivo Amparo 1,Básquetbol,Maipú,16822
+217,Complejo Deportivo Teresita 3,Tenis,Conchalí,24384
+218,Complejo Deportivo Diego 2,Futbolito,Santiago,33857
+219,Complejo Deportivo Lilian 3,Pádel,El Bosque,30680
+220,Complejo Deportivo Emilia 1,Futbolito,San Miguel,34717
+221,Complejo Deportivo Paloma 1,Pádel,San Miguel,43340
+222,Complejo Deportivo Santiago 5,Futbolito,Santiago,37008
+223,Complejo Deportivo Franco 3,Pádel,La Cisterna,24665
+224,Complejo Deportivo Ingrid 1,Futbolito,Vitacura,37303
+225,Complejo Deportivo Patricia 1,Futbolito,La Reina,39510
+226,Complejo Deportivo Benjamín 2,Pádel,Conchalí,30257
+227,Complejo Deportivo Cristian 4,Pádel,Lo Prado,37788
+228,Complejo Deportivo Carolina 2,Futbolito,Maipú,38775
+229,Complejo Deportivo Rodrigo 3,Futbolito,Huechuraba,40878
+230,Complejo Deportivo Jennifer 5,Básquetbol,Estación Central,20852
+231,Complejo Deportivo Francisca 2,Futbolito,Lo Prado,33449
+232,Complejo Deportivo Pedro 3,Futbolito,Independencia,34942
+233,Complejo Deportivo Adriana 1,Futbolito,Independencia,37735
+234,Complejo Deportivo Alex 2,Futsal,Independencia,16984
+235,Complejo Deportivo Margarita 3,Futbolito,La Florida,32364
+236,Complejo Deportivo Eleodoro 1,Pádel,La Florida,42181
+237,Complejo Deportivo Simón 3,Futbolito,Maipú,29362
+238,Complejo Deportivo Natalia 3,Futsal,Macul,21128
+239,Complejo Deportivo Juan 1,Futbolito,Las Condes,39124
+240,Complejo Deportivo Cristóbal 5,Futbolito,La Granja,39220
+241,Complejo Deportivo Manuel 2,Futbolito,Cerro Navia,34934
+242,Complejo Deportivo Sonia 1,Pádel,Pedro Aguirre Cerda,30691
+243,Complejo Deportivo Lukas 5,Futbolito,Quilicura,39706
+244,Complejo Deportivo Benjamín 1,Futsal,Maipú,19734
+245,Complejo Deportivo Ana 4,Pádel,San Miguel,27935
+246,Complejo Deportivo Bastián 3,Futbolito,Lo Prado,36110
+247,Complejo Deportivo Dante 3,Futbolito,Lo Prado,41279
+248,Complejo Deportivo María 1,Futbolito,Maipú,35342
+249,Complejo Deportivo Nelly 2,Futbolito,Vitacura,37299
+250,Complejo Deportivo Edmundo 4,Pádel,Macul,30832
+251,Complejo Deportivo Joshua 5,Futbolito,Peñalolén,40016
+252,Complejo Deportivo Víctor 5,Futsal,Vitacura,14158
+253,Complejo Deportivo José 4,Futbolito,Recoleta,34538
+254,Complejo Deportivo Blanca 4,Básquetbol,Vitacura,18467
+255,Complejo Deportivo Antonia 1,Futbolito,La Cisterna,38982
+256,Complejo Deportivo Cristofer 4,Futbolito,Renca,28853
+257,Complejo Deportivo Carolina 3,Básquetbol,Quinta Normal,20098
+258,Complejo Deportivo Ariel 1,Básquetbol,La Granja,20729
+259,Complejo Deportivo Alison 4,Futsal,San Joaquín,17526
+260,Complejo Deportivo Carla 1,Pádel,San Joaquín,39937
+261,Complejo Deportivo Lucas 5,Pádel,Conchalí,26094
+262,Complejo Deportivo Cristian 4,Pádel,Peñalolén,39753
+263,Complejo Deportivo Enrique 1,Pádel,Ñuñoa,24087
+264,Complejo Deportivo Natalie 3,Futsal,Las Condes,16371
+265,Complejo Deportivo Karina 4,Futbolito,Estación Central,30983
+266,Complejo Deportivo Néstor 3,Básquetbol,Las Condes,17702
+267,Complejo Deportivo José 2,Futbolito,La Granja,41278
+268,Complejo Deportivo Vicente 5,Futbolito,El Bosque,38966
+269,Complejo Deportivo María 4,Futsal,Lo Espejo,16471
+270,Complejo Deportivo Ignacia 2,Futbolito,Quinta Normal,35263
+271,Complejo Deportivo Ramón 3,Pádel,Lo Barnechea,24957
+272,Complejo Deportivo Adelina 3,Futbolito,Quilicura,37444
+273,Complejo Deportivo Javiera 1,Tenis,Ñuñoa,27393
+274,Complejo Deportivo Helena 3,Básquetbol,La Pintana,14006
+275,Complejo Deportivo Ivonne 1,Pádel,Ñuñoa,42312
+276,Complejo Deportivo Gaspar 2,Futbolito,Las Condes,32983
+277,Complejo Deportivo Guido 5,Futbolito,Cerro Navia,33191
+278,Complejo Deportivo Paulo 2,Futsal,Renca,13899
+279,Complejo Deportivo Martina 1,Pádel,Pedro Aguirre Cerda,23229
+280,Complejo Deportivo Oscar 3,Pádel,Macul,36742
+281,Complejo Deportivo Lian 4,Pádel,San Joaquín,39382
+282,Complejo Deportivo Luis 4,Pádel,Conchalí,33396
+283,Complejo Deportivo Juan 2,Futbolito,Lo Barnechea,32215
+284,Complejo Deportivo Osvaldo 2,Futsal,Pudahuel,14174
+285,Complejo Deportivo Cristóbal 4,Futsal,Pudahuel,20497
+286,Complejo Deportivo Francisca 4,Pádel,San Joaquín,23465
+287,Complejo Deportivo Luis 5,Tenis,La Granja,15440
+288,Complejo Deportivo Francisco 2,Pádel,La Granja,40890
+289,Complejo Deportivo Alfredo 3,Futbolito,Cerro Navia,28943
+290,Complejo Deportivo Victoria 2,Pádel,Lo Espejo,44419
+291,Complejo Deportivo Teresa 4,Pádel,El Bosque,44448
+292,Complejo Deportivo Antonio 5,Futbolito,Cerrillos,38721
+293,Complejo Deportivo Augusto 3,Pádel,Cerro Navia,26976
+294,Complejo Deportivo María 1,Futbolito,Renca,30251
+295,Complejo Deportivo Michelle 5,Futsal,Huechuraba,13163
+296,Complejo Deportivo María 2,Futsal,San Ramón,12466
+297,Complejo Deportivo Javiera 2,Pádel,Quinta Normal,31319
+298,Complejo Deportivo Mia 2,Pádel,Pedro Aguirre Cerda,28943
+299,Complejo Deportivo María 4,Futbolito,La Reina,34263
+300,Complejo Deportivo Pedro 3,Pádel,Maipú,36378

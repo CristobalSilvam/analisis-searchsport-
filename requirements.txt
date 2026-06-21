@@ -1,0 +1,4 @@
+pandas==2.1.0
+streamlit==1.26.0
+plotly==5.17.0
+Faker==19.6.0
