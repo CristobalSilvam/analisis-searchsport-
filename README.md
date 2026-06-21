@@ -81,6 +81,12 @@ Abre tu navegador web e ingresa a http://localhost:8501.
 
 Para detener el servicio de forma limpia, ejecuta docker-compose down en tu terminal.
 
+Sin docker: 
+instalamos las herramientas necesarias y luego ejecutamos el dashboard.
+```console
+py -m pip install pandas faker streamlit plotly.express 
+streamlit run dashboard.py 
+```
 Manual de Usuario
 La plataforma analítica está diseñada en base a dos perfiles de usuario, accesible a través de pestañas de navegación:
 
