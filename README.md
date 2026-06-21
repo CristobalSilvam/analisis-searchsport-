@@ -65,7 +65,6 @@ Docker y Docker Compose instalados y en ejecución.
 Pasos para DesplegarClonar el repositorio:
 ```bash
 clone [https://github.com/CristobalSilvam/analisis-searchsport-.git](https://github.com/CristobalSilvam/analisis-searchsport-.git)
-cd Ciencia de datos Dashboard progra searchsport
 ```
 Generar el dataset base (ETL):
 ```bash
