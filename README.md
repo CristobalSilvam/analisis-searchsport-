@@ -15,11 +15,11 @@ El pipeline de datos procesa y unifica tres fuentes heterogéneas mediante scrip
 
 ```mermaid
 graph TD
-    A[(Catálogo SQL)] -->|Recintos y Precios| D(ETL / Data Engineering)
+    A[(Catálogo SQL)] -->|Recintos y Precios| D(ETL / Ingenieria de Datos)
     B[Archivo CSV] -->|Historial de Reservas| D
-    C((API REST)) -->|Open-Meteo Historical| D
+    C((API REST)) -->|Historial Open-Meteo | D
     D --> E{Dataframe Consolidado}
-    E --> F[Dashboard Streamlit]
+    E --> F[Dashboard]
     F --> G[Vista Ejecutiva]
     F --> H[Vista Operativa]
 ```
