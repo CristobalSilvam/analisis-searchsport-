@@ -1,0 +1,18 @@
+Mejor modelo: Random_Forest
+
+Métricas comparativas:
+             modelo  accuracy  precision   recall  f1_score
+      Random_Forest     0.723   0.410256 0.672897  0.509735
+Regresion_Logistica     0.726   0.412791 0.663551  0.508961
+     Arbol_Decision     0.701   0.381616 0.640187  0.478185
+  Gradient_Boosting     0.773   0.333333 0.060748  0.102767
+
+Reporte de clasificación del mejor modelo:
+              precision    recall  f1-score   support
+
+  Completada       0.89      0.74      0.81       786
+   Cancelada       0.41      0.67      0.51       214
+
+    accuracy                           0.72      1000
+   macro avg       0.65      0.70      0.66      1000
+weighted avg       0.79      0.72      0.74      1000

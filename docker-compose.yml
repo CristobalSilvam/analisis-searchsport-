@@ -1,17 +1,22 @@
-version: '3.8'
-
 services:
   dashboard-searchsport:
     build: .
-    container_name: searchsport_analytics_app
+    container_name: searchsport_dashboard
+    command: >
+      streamlit run dashboard.py
+      --server.address=0.0.0.0
+      --server.port=8501
+      --server.headless=true
+      --server.fileWatcherType=none
+      --browser.gatherUsageStats=false
     ports:
       - "8501:8501"
-    environment:
-      # Ejemplo de configuración por variable de entorno externa
-      - APP_ENV=production
-      - TZ=America/Santiago
-    volumes:
-      # Montamos un volumen local. Si ejecutas generar_datos.py y cambian los CSV, 
-      # el contenedor leerá los datos nuevos automáticamente sin tener que reconstruirlo.
-      - .:/app
-    restart: unless-stopped
+    depends_on:
+      - api-searchsport
+
+  api-searchsport:
+    build: .
+    container_name: searchsport_api
+    command: uvicorn api.app:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
