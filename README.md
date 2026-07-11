@@ -220,178 +220,89 @@ Como mejora futura, el análisis podría evolucionar hacia un modelo predictivo 
 
 ---
 
-## Ejecución en otro computador / laboratorio
+## Ejecución en Windows
 
-### Opción recomendada: ejecutar con Docker
+### Opción 1: Ejecutar con Docker
 
-Esta opción levanta automáticamente el dashboard de Streamlit y la API de FastAPI.
+Requiere tener Docker Desktop abierto.
 
-### 1. Clonar el repositorio
-
-```bash
+```powershell
 git clone URL_DEL_REPOSITORIO
 cd analisis-searchsport-
-2. Verificar que Docker esté instalado
-docker --version
-docker compose version
-
-Si ambos comandos responden correctamente, ejecutar:
-
-docker compose up --build
-3. Abrir la aplicación
-
-Dashboard:
-
-http://localhost:8501
-
-API / Swagger:
-
-http://localhost:8000/docs
-4. Detener los servicios
-docker compose down
-Alternativa si Docker presenta problemas
-
-En algunos laboratorios Docker puede no estar instalado, no estar abierto o no tener permisos suficientes. En ese caso, se puede ejecutar el proyecto localmente con Python.
-
-1. Crear entorno virtual
-python -m venv venv
-2. Activar entorno virtual
-
-En Windows:
-
-venv\Scripts\activate
-
-En Mac/Linux:
-
-source venv/bin/activate
-3. Instalar dependencias
-pip install -r requirements.txt
-4. Ejecutar la API
-
-Abrir una terminal y ejecutar:
-
-python -m uvicorn api.app:app --reload --port 8000
-
-Luego abrir:
-
-http://localhost:8000/docs
-5. Ejecutar el dashboard
-
-Abrir otra terminal, activar nuevamente el entorno virtual y ejecutar:
-
-python -m streamlit run dashboard.py
-
-Luego abrir:
-
-http://localhost:8501
-Solución de problemas frecuentes
-Docker no reconoce el comando docker-compose
-
-Usar el comando nuevo:
-
 docker compose up --build
 
-En vez de:
-
-docker-compose up --build
-El dashboard demora en cargar
-
-Esperar entre 20 y 40 segundos. Streamlit puede tardar la primera vez mientras carga dependencias y datos.
-
-Probar también:
-
-http://127.0.0.1:8501
-La predicción no funciona en el dashboard
-
-Verificar primero que la API esté activa:
-
-http://localhost:8000/docs
-
-También se puede probar el endpoint:
-
-POST /predict
-
-Si la API no está corriendo, levantarla con:
-
-python -m uvicorn api.app:app --reload --port 8000
-
-o con Docker:
-
-docker compose up --build
-El dashboard se cae en Docker o aparece exited with code 139
-
-Este error puede ocurrir por incompatibilidad de librerías o watcher de Streamlit en Docker/WSL.
-
-Revisar que el docker-compose.yml tenga desactivado el file watcher:
-
-command: >
-  streamlit run dashboard.py
-  --server.address=0.0.0.0
-  --server.port=8501
-  --server.headless=true
-  --server.fileWatcherType=none
-  --browser.gatherUsageStats=false
-
-Si el problema continúa, usar la alternativa local:
-
-python -m streamlit run dashboard.py
-
-y dejar la API corriendo en otra terminal.
-
-El modelo no responde o falta el archivo .pkl
-
-Ejecutar nuevamente el entrenamiento:
-
-python models/modelo_cancelaciones.py
-
-Esto debería generar:
-
-models/modelo_cancelaciones.pkl
-outputs/metricas_modelos.csv
-outputs/matriz_confusion.csv
-outputs/reporte_mejor_modelo.txt
-
-Luego reiniciar la API y el dashboard.
-
-Archivos importantes que deben estar en el repositorio
-
-Para que el proyecto funcione en otro computador, deben estar incluidos:
-
-canchas_searchsport.csv
-reservas_historicas_searchsport.csv
-models/modelo_cancelaciones.pkl
-outputs/metricas_modelos.csv
-outputs/matriz_confusion.csv
-outputs/reporte_mejor_modelo.txt
-api/app.py
-dashboard.py
-requirements.txt
-Dockerfile
-docker-compose.yml
-README.md
-
-No se deben excluir del repositorio los archivos .csv, .pkl, models/ ni outputs/.
-
-Verificación rápida antes de presentar
-
-Ejecutar:
-
-docker compose up --build
-
-Confirmar que funcionen:
+Abrir en el navegador:
 
 Dashboard: http://localhost:8501
 API Swagger: http://localhost:8000/docs
 
-En el dashboard, revisar que existan las tres pestañas:
+Para detener:
 
-Vista Ejecutiva (Negocio)
-Vista Operativa (Canchas y Comunas)
-Predicción de Cancelación
+docker compose down
 
-En Swagger, revisar que existan los endpoints:
+Si docker compose no funciona, verificar:
 
-GET /health
-GET /metricas
-GET /matriz-confusion
-POST /predict
+docker --version
+docker compose version
+
+### Opción 2: Ejecutar sin Docker en Windows
+
+Recomendado usar Python 3.11 o 3.12.  
+Si Python 3.13 da problemas instalando pandas, usar Docker o instalar Python 3.11.
+
+Crear entorno virtual:
+
+```powershell
+python -m venv venv
+
+Activar entorno:
+
+venv\Scripts\activate
+
+Actualizar instaladores:
+
+python -m pip install --upgrade pip setuptools wheel
+
+Instalar dependencias:
+
+pip install -r requirements.txt
+
+Si se queda pegado instalando pandas, usar esta alternativa:
+
+pip install pandas streamlit plotly Faker scikit-learn joblib fastapi uvicorn pydantic requests
+
+Ejecutar la API en una terminal:
+
+python -m uvicorn api.app:app --reload --port 8000
+
+Abrir:
+
+http://localhost:8000/docs
+
+Ejecutar el dashboard en otra terminal:
+
+venv\Scripts\activate
+python -m streamlit run dashboard.py
+
+Abrir:
+
+http://localhost:8501
+
+---
+
+## Mejor ajuste para tu `requirements.txt`
+
+Para evitar ese problema en otros PC, si lo van a ejecutar sin Docker, conviene dejar el `requirements.txt` **sin versiones fijas**:
+
+```txt
+numpy
+pandas
+streamlit
+plotly
+Faker
+scikit-learn
+joblib
+fastapi
+uvicorn
+pydantic
+requests
